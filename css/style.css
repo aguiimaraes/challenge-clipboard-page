@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+:root{
+    /* Primary colors */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    /* Neutral colors */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue:hsl(201, 11%, 66%);
+    --gray: hsl(0, 0%, 96%);
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+main {
+    text-align: center;
+}
+button{
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+.bt-ios{
+    background-color: var(--strong-cyan);
+    border-bottom: 2px solid var(--strong-cyan);
+    margin: 0 10px 0;
+}
+.bt-mac{
+    background-color: var(--light-blue);
+    border-bottom: 2px solid var(--light-blue);
+    margin: 0 10px 0;
+}
+.container-header .img-logo{
+    margin: 100px 0 50px;
+}
+.content-text{
+    width: 500px;
+    margin: auto;
+}
+.content-begin h1{
+    color: black;
+    font-size: 2rem;
+    margin: 0;
+}
+.content-begin p{
+    color: var(--grayish-blue);
+    margin: 15px 0 35px;
+}
+
+.content-begin h2{
+    color: black;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.content-snippets{
+    width: 550px;
+    margin: 120px auto 90px;
+}
+
+.content-snippets p{
+    color: var(--grayish-blue);
+}
+
+.container-content-begin .conf-computer{
+    display: flex;
+    align-items: center;
+}
+
+.container-content-begin .conf-computer img{
+    margin: 15px 15px 15px -50px;
+}
+.conf-computer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.conf-computer-content h3{
+    margin: 10px 0;
+    color: black;
+}
+.conf-computer-content p{
+    margin: 0 0 40px;
+    color: var(--grayish-blue);
+}
+.content-middle{
+    margin-top: 150px;
+}
+
+.content-middle p{
+    width: 700px;
+    margin: 10px auto 70px;
+    color: var(--grayish-blue);
+}
+
+.content-workflow{
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-evenly;
+}
+
+.content-workflow .workflow-card-1{
+    width: 350px;
+}
+.content-workflow .workflow-card-1 p{
+    width: 300px;
+}
+.content-workflow .workflow-card-2{
+    width: 350px;
+}
+.content-workflow .workflow-card-2 p{
+    width: 300px;
+}
+.content-workflow .workflow-card-3{
+    width: 350px;
+}
+.content-workflow .workflow-card-3 p{
+    width: 300px;
+}
+
+.content-end{
+    margin: 100px auto 0;
+}
+
+.content-end p{
+    color: var(--grayish-blue);
+    width: 550px;
+    margin: 25px auto 40px;
+}
+.content-logo{
+    margin: 120px auto;
+}
+.content-logo ul{
+    list-style: none;
+    padding: 0;
+}
+.content-logo ul li{
+    display: inline;
+    padding: 40px;
+}
+
+.container-links{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 9em 9em 9em;
+    justify-content: center;
+    color: var(--grayish-blue);
+    font-weight: 600;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    background-color: var(--gray);
+    width: 100%;
+    margin: 100px auto 0;
+}
+.container-footer .logo-end{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    margin: auto
+}
+.container-footer .social-media{
+    margin: auto;
+}
+.container-footer .social-media ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.container-footer .social-media ul li{
+    display: inline;
+    padding: 0 10px;
+    margin: 0 20px 0 0;
+}
+
+.text-end{
+    background-color: var(--gray);
+    margin: 0 0 5px 0;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin: 0;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
