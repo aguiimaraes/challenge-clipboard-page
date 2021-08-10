@@ -5,6 +5,8 @@
     /* Primary colors */
     --strong-cyan: hsl(171, 66%, 44%);
     --light-blue: hsl(233, 100%, 69%);
+    --purple: #6137ff;
+    --green: #008a00;
     /* Neutral colors */
     --dark-grayish-blue: hsl(210, 10%, 33%);
     --grayish-blue:hsl(201, 11%, 66%);
@@ -39,13 +41,17 @@ button{
 }
 .bt-ios{
     background-color: var(--strong-cyan);
-    border-bottom: 2px solid var(--strong-cyan);
     margin: 0 10px 0;
+}
+.bt-ios:hover{
+    border-bottom: 2px solid var(--green);
 }
 .bt-mac{
     background-color: var(--light-blue);
-    border-bottom: 2px solid var(--light-blue);
     margin: 0 10px 0;
+}
+.bt-mac:hover{
+    border-bottom: 2px solid var(--purple);
 }
 .container-header .img-logo{
     margin: 100px 0 50px;
@@ -166,6 +172,10 @@ button{
     justify-content: center;
     color: var(--grayish-blue);
     font-weight: 600;
+}
+.container-links p:hover{
+    color: var(--strong-cyan);
+    cursor: pointer;
 }
 .container-footer{
     display: flex;
